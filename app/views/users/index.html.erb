@@ -1,0 +1,6 @@
+<h1>Users#index</h1>
+<% @user.each do |f| %>
+<%= f.name %>
+<%= f.mobile %>
+<% end %>
+<%= link_to 'new',:action =>'new' %>

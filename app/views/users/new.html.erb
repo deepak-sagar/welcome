@@ -1,0 +1,8 @@
+<h1>Users#new</h1>\
+
+  <%= form_for @user do |f| %> 
+ name:<%= f.text_field :name ,:id=> 'name'%>
+ mobile: <%= f.text_field :mobile, :id=> 'mobile' %>    
+    <%= f.submit 'submit', :id=> 'submit'%>
+<% end %>
+ 
